@@ -91,10 +91,10 @@ export const Ul =styled.ul`
        
         a{
             cursor: pointer;
-            font-size: 20px;
+            font-size: 15px;
             font-weight: 500;
             text-decoration: none;
-            color: #000;
+            color: #fff;
         }
 
         &:hover{
