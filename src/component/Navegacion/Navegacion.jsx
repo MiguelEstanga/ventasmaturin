@@ -32,7 +32,10 @@ export const Navegacion = () => {
     return (
         <Container ref={navegacion}>
             <Box>
+                   <h1>
                 Ventas Maturin
+                        
+                    </h1>
             </Box>
             <Ul ref={ul}>
                 <li>
