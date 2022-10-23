@@ -64,9 +64,14 @@ export const Box =styled.div`
      font-size: 40px;
      margin-left: 10px;
      font-weight: 900;
-
+      h1{
+        color:#fff;
+      }
      @media (max-width: 500px) {
         font-size: 20px;
+           h1{
+        color:#fff;
+      }
     }
 
 `
