@@ -9,12 +9,12 @@ export const Redes = () => {
             </Texto>
             <BoxRedes>
                 <div>
-                    <a href="https://api.whatsapp.com/send/?text=https://miguelestanga.netlify.app/" target="_black">
+                    <a href="https://api.whatsapp.com/send/?text=https://ventasmaturin.netlify.app/" target="_black">
                         <ion-icon name="logo-whatsapp"></ion-icon>
                     </a>
                 </div>
                 <div>
-                    <a href="https://facebook.com/share.php?u=https://miguelestanga.netlify.app/" target="_black">
+                    <a href="https://facebook.com/share.php?u=https://ventasmaturin.netlify.app/" target="_black">
                         <ion-icon name="logo-facebook"></ion-icon>
                     </a>
                 </div>
