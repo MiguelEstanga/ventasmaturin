@@ -5,7 +5,7 @@ export const Redes = () => {
     return (
         <Container id='redes'>
             <Texto>
-                Compatarnos en Redes sociales Para llegar a mas personas
+                Compartarnos en Redes sociales Para llegar a mas personas
             </Texto>
             <BoxRedes>
                 <div>
@@ -21,7 +21,7 @@ export const Redes = () => {
 
             </BoxRedes>
             <Texto>
-                Este sitio web fue diceñado por Miguel Estanga
+                Este sitio web fue diseñado por Miguel Estanga
 
             </Texto>
             <Texto>
