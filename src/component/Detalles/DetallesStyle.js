@@ -18,7 +18,7 @@ export const Container = styled.section`
 
 export const Box = styled.div`
     width: 80%;
-    height: 80%;
+    height: 100%;
     background: #FDFEFE;
     border-radius: 5px;
     padding: 10px;
