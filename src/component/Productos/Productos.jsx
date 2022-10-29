@@ -1,6 +1,7 @@
 import React from 'react'
 import { Boton } from '../Wraper/WraperStyled'
 import { Box, Container, Detalles, Imagen, Titulo } from './ProductosStyled'
+import { Spiner } from '../spiner/Spiner'
 
 import { useEffect } from 'react'
 import { useState } from 'react'
@@ -9,12 +10,16 @@ import { Texto } from '../Redes/RedesStyled'
 
 export const Productos = () => {
     const [data, setData] = useState([])
+    const [spiner , setSpiner] = useState(true)
+
     useEffect(function () {
         fetch('https://servidorventacompu.herokuapp.com/CompuData')
             .then(res => res.json())
             .then(res => {
                 setData(res)
-            })
+            }).finally(()=>{
+                setSpiner(false)
+            } )
 
     }, [])
     return (
@@ -26,7 +31,7 @@ export const Productos = () => {
                 Productos
             </Texto>
             <Container id='productos'>
-
+                 {spiner?<Spiner/>:""}
                 {
 
                     data && data?.map(d => (
